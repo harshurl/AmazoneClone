@@ -1,8 +1,6 @@
-/*
-https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405936311_.png
-*/
 
 * {
+    
     box-sizing: border-box;
 }
 
@@ -94,8 +92,8 @@ body {
 /***search-container****/
 .search-container {
     background-color: red;
-    margin-left: 25px;
-    width: 640px;
+    margin-left: 15px;
+    width: 800px;
     display: flex;
     height: 40px;
     justify-content: space-between;
@@ -162,44 +160,51 @@ body {
 }
 
 .account {
-    font-weight: 900;
+    font-weight: 600;
     font-size: 1.1rem;
 }
 
 .return-order-container {
     width: 65px;
+
     font-size: 0.9rem;
     margin-left: 10px;
+}
+.return-order-container p{
+
+    margin: 0px;
 }
 .return-order-container:hover{
     border: 1.5px solid #ffffff;
 }
 
-.return-order-container p {
-    margin: 0;
-}
+
 
 .order {
     font-size: 1rem;
-    font-weight: 900;
+    font-weight: 600;
     display: flex;
-    width: 70px;
+    width: 80px;
 }
 
 /****cart container***/
 .cart-container {
+    margin-right: 0px;
+    margin-left: 20px;
     font-size: 1.1rem;
     display: flex;
 }
 
 .cart-container i {
     font-size: 1rem;
+ 
 }
 
-/**************************************navigation*****************************************/
+/* Navigation Menu */
 .nav {
     height: 40px;
     background-color: #232f3d;
+    font-family:  Helvetica;
     /* margin: 2px 2px 2px 2px; */
 }
 
@@ -229,14 +234,23 @@ body {
 }
 
 .nav-right-image-amazon-prime {
-    min-width: 300px;
+    
     height: 300;
-    max-width: 500px;
+    width: 300px;
+    
+    
+}
+.nav-right-image-amazon-prime :hover {
+    
+   cursor: pointer;
+    
+    
 }
 
 .nav-right-image-amazon-prime img {
-    width: 100%;
+    width: 90%;
     height: 100%;
+    
 }
 
 .prime-image {
@@ -515,7 +529,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .today_deals_product_item img{
     width: 100%;
@@ -567,7 +581,7 @@ body {
 
 
 footer{
-    margin-top: 15px;
+    margin-top: 2px;
 }
 .foot-panel1{
     background-color: #37475a;
