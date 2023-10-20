@@ -211,6 +211,7 @@ body {
 .container-nav {
     display: flex;
     align-items: center;
+    font-family:  Helvetica;
     justify-content: space-between;
     padding-left: 15px;
 }
@@ -218,6 +219,7 @@ body {
 .container-nav ul {
     padding: 0;
     margin: 0;
+    font-family:  Helvetica;
     display: flex;
     align-items: center;
     height: 100%;
@@ -230,14 +232,14 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 2px;
-
+    font-family:  Helvetica;
 }
 
 .nav-right-image-amazon-prime {
     
     height: 300;
     width: 300px;
-    
+
     
 }
 .nav-right-image-amazon-prime :hover {
@@ -309,6 +311,7 @@ body {
     position: absolute;
     top: 0;
     display: flex;
+    font-family:  Helvetica;
     justify-content: space-between;
     width: 100%;
 }
