@@ -2,6 +2,7 @@
 * {
     
     box-sizing: border-box;
+    font-family: "Amazon Ember",Arial;
 }
 
 body {
@@ -56,8 +57,12 @@ body {
 }
 
 .border-white {
+  
     padding: 5px;
+    padding-bottom: 10px;
     border: 1.5px solid transparent;
+
+    
 }
 
 .border-white:hover {
@@ -71,6 +76,7 @@ body {
 
 .address-container p {
     margin: 0;
+    
 }
 
 .icon-address {
@@ -136,6 +142,9 @@ body {
     margin-left: 25px;
 }
 
+.language-container :hover{
+    cursor : pointer;
+}
 .language-container p {
     font-size: 0.8rem;
     margin: 0;
@@ -146,7 +155,7 @@ body {
 }
 
 .lauguge-image img {
-    width: 100%;
+    width: 80%;
 }
 
 
@@ -158,10 +167,13 @@ body {
 .login-container p {
     margin: 0;
 }
+.login-container:hover{
+    cursor : pointer;
+}
 
 .account {
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
 .return-order-container {
@@ -176,17 +188,19 @@ body {
 }
 .return-order-container:hover{
     border: 1.5px solid #ffffff;
+   
+        cursor : pointer;
+   
 }
 
 
 
 .order {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     width: 80px;
 }
-
 /****cart container***/
 .cart-container {
     margin-right: 0px;
@@ -197,21 +211,24 @@ body {
 
 .cart-container i {
     font-size: 1rem;
- 
+    
 }
 
+.cart-container :hover{
+    cursor : pointer;
+}
 /* Navigation Menu */
 .nav {
     height: 40px;
     background-color: #232f3d;
-    font-family:  Helvetica;
+    font-family: "Amazon Ember",Arial;
     /* margin: 2px 2px 2px 2px; */
 }
 
 .container-nav {
     display: flex;
     align-items: center;
-    font-family:  Helvetica;
+    font-family: "Amazon Ember",Arial;
     justify-content: space-between;
     padding-left: 15px;
 }
@@ -219,7 +236,7 @@ body {
 .container-nav ul {
     padding: 0;
     margin: 0;
-    font-family:  Helvetica;
+    font-family: "Amazon Ember",Arial;
     display: flex;
     align-items: center;
     height: 100%;
@@ -232,7 +249,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0px 2px;
-    font-family:  Helvetica;
+    font-family: "Amazon Ember",Arial;
 }
 
 .nav-right-image-amazon-prime {
@@ -457,8 +474,27 @@ body {
 
 
 }
+.tv {
+width: 260px;
+height: 230px;
+
+}
 
 
+
+.c{
+
+width: 25px;
+
+}
+.c img{
+
+    margin-top: 2px;
+    width: 260px;
+    height: 230px;
+
+
+}
 .card-nested p{
     margin: 5px;
 }
@@ -470,9 +506,10 @@ body {
 }
 .card-product-btn{
     font-size: 14px;
-    align-self: flex-start;
-    margin: 7px 10px; 
+    /* align-self: flex-start; */
+    /* margin: 7px 10px;  */
     padding-left: 0;
+    
     background-color: transparent;
     border:none;
     color:rgb(25, 105, 105)
@@ -508,7 +545,7 @@ body {
 
 .today_deals_product_container{
     /* background-color: red; */
-    height: 300px;
+    height: 30px;
     position: relative;
 }
 .today_deals_product_list{
@@ -532,11 +569,12 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin-bottom: 5px;
+    
 }
 .today_deals_product_item img{
-    width: 100%;
-    height: 100%;
+    width: 230px;
+    height: 175px;
+    margin: 5px 5px 5px 5px;
     /* padding: 20px 20px; */
     background-color: red;
 }
@@ -572,6 +610,7 @@ body {
 }
 .today_deal_btn{
     padding: 40px 10px;
+    margin-top: 100px;
     font-size: 40px;
     border: none;
     outline: none;
@@ -583,9 +622,7 @@ body {
 
 
 
-footer{
-    margin-top: 2px;
-}
+
 .foot-panel1{
     background-color: #37475a;
     color: white;
